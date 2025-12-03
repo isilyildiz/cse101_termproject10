@@ -9,5 +9,93 @@
         "price": 150,
         "description": "A tech conference",
         "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
+    },
+    {
+        "id": "U001",
+        "name": "GDG club 2025",
+        "location": "Istanbul",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-03",
+        "capacity": 200,
+        "price": 150,
+        "description": "A tech conference",
+        "sessions": []
     }
 ]
