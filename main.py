@@ -51,7 +51,9 @@ def organizer_menu():
     print("\n=== Organizer Menu ===")
     print("1. Add Event")
     print("2. Show Event Count")
-    print("3. Back")
+    print("3. Update Event")
+    print("4. Back")
+
 
     choice = input("Select: ")
 
@@ -76,7 +78,29 @@ def organizer_menu():
         print("Registered event count:", len(events))
 
     if choice == "3":
-        main()
+       event_id = input("Event ID to update: ")
+       new_name = input("New Event Name (leave blank to skip): ")
+       new_capacity = input("New Capacity (leave blank to skip): ")
+
+       updates = {}
+
+       if new_name:
+           updates["name"] = new_name
+       if new_capacity:
+           updates["capacity"] = int(new_capacity)
+
+       from events import update_event
+       updated = update_event(events, event_id, updates)
+
+       if updated:
+           save_events(EVENTS_PATH, events)
+           print("Event updated successfully.")
+       else:
+           print("Event not found.")
+
+    if choice == "4":
+       main()
+
 
     organizer_menu()
 

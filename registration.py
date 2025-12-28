@@ -58,30 +58,6 @@ def create_registration(registrations: list, data: dict, events: list) -> dict:
     registrations.append(reg)
     return reg
 
-
-
-#FİNDİNG EVENT
-    event_id = data["event_id"]
-    event = None
-    for e in events:
-        if e["id"] == event_id:
-            event = e
-
-    if event is None:
-        raise ValueError("Event not found")
-
-    reg = {
-        "id": str(uuid.uuid4()),
-        "attendee_id": data["attendee_id"],
-        "event_id": event_id,
-        "timestamp": datetime.now().isoformat(),
-        "confirmation_code": str(uuid.uuid4())[:8],
-        "seat_number": len(registrations) + 1
-    }
-
-    registrations.append(reg)
-    return reg
-
 #(week3)
 def promote_waitlist(registrations: list, event_id: str):
     waitlist = [
